@@ -93,7 +93,7 @@
         "features": ["Improved circulation", "Fatigue relief", "Relaxation"]
       },
       {
-        "name": "Neck, Shoulder & Back",
+        "name": "Neck, Shoulder & Back Massage",
         "emoji": "💆",
         "description": "Targeted massage for neck, shoulders, and back to relieve tension and improve posture.",
         "duration": "1 hour",
@@ -136,6 +136,7 @@
     },
     "map": {
       "label": "🗺️ Interactive Map",
+      "embedSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24309.07394988624!2d98.97330491889306!3d18.779626067775432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3b39d97b6833%3A0x153f97668f94f6a4!2sGaya%20Massage!5e0!3m2!1sen!2sth!4v1764950517587!5m2!1sen!2sth",
       "note": "210 Prapokklao Road, Tambon Si Phum, Mueang Chiang Mai District"
     },
     "bookingTitle": "Booking Information",

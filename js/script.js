@@ -249,10 +249,11 @@ function populateContactPage(data) {
     });
   }
 
-  const mapLabel = document.getElementById("map-label");
   const mapNote = document.getElementById("map-note");
-  if (mapLabel) mapLabel.innerHTML = contactData.map.label;
   if (mapNote) mapNote.textContent = contactData.map.note;
+
+  const mapIframe = document.getElementById("map-iframe");
+  if (mapIframe) mapIframe.src = contactData.map.embedSrc;
 
   setText("booking-info-title", contactData.bookingTitle);
   const bookingGrid = document.getElementById("booking-grid");
