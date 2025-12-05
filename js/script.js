@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             emoji: "🙏",
             description: "Traditional Thai massage combining acupressure, stretching, and therapeutic techniques to promote health and wellness.",
             duration: "1 hour",
-            price: "₿300",
+            price: "₿250",
             features: ["✓ Traditional techniques", "✓ Health benefits", "✓ Stress relief"]
         },
         {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             emoji: "🛁",
             description: "Relaxing oil massage using aromatic oils to soothe muscles and enhance relaxation.",
             duration: "1 hour",
-            price: "₿500",
+            price: "₿400",
             features: ["✓ Aromatherapy", "✓ Muscle relaxation", "✓ Deep soothing"]
         },
         {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             emoji: "🦶",
             description: "Relaxing foot massage focusing on pressure points to improve circulation and reduce fatigue.",
             duration: "1 hour",
-            price: "₿300",
+            price: "₿250",
             features: ["✓ Improved circulation", "✓ Fatigue relief", "✓ Relaxation"]
         },
         {
@@ -31,49 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
             emoji: "💆",
             description: "Targeted massage for neck, shoulders, and back to relieve tension and improve posture.",
             duration: "1 hour",
-            price: "₿300",
+            price: "₿250",
             features: ["✓ Tension relief", "✓ Posture improvement", "✓ Pain reduction"]
         },
-        {
-            name: "Deep Tissue Massage",
-            emoji: "💪",
-            description: "Intensive massage targeting deep muscle layers to release chronic tension and knots.",
-            duration: "1 hour",
-            price: "₿500",
-            features: ["✓ Chronic pain relief", "✓ Knot release", "✓ Muscle recovery"]
-        },
-        {
-            name: "Whole-body Acupressure Therapy",
-            emoji: "🌟",
-            description: "Comprehensive acupressure treatment for the entire body to balance energy flow.",
-            duration: "1 hour",
-            price: "₿800",
-            features: ["✓ Energy balancing", "✓ Full body treatment", "✓ Holistic healing"]
-        },
-        {
-            name: "Herbal Compress Massage",
-            emoji: "🌿",
-            description: "Therapeutic massage using heated herbal compresses to relieve pain and inflammation.",
-            duration: "1 hour",
-            price: "₿500",
-            features: ["✓ Herbal benefits", "✓ Inflammation reduction", "✓ Pain relief"]
-        },
-        {
-            name: "Therapeutic Thai Massage for 16 Common Ailments",
-            emoji: "🩹",
-            description: "Specialized Thai massage addressing 16 common health issues with targeted techniques.",
-            duration: "1 hour",
-            price: "₿500",
-            features: ["✓ Targeted therapy", "✓ Health issue relief", "✓ Specialized care"]
-        },
-        {
-            name: "Hot Oil Massage",
-            emoji: "🔥",
-            description: "Luxurious massage with heated oils to deeply penetrate muscles and promote healing.",
-            duration: "1 hour",
-            price: "₿650",
-            features: ["✓ Deep penetration", "✓ Healing oils", "✓ Luxury experience"]
-        }
     ];
 
     // Generate services dynamically
