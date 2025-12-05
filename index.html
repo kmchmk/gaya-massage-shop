@@ -1,172 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gaya Massage Shop - Traditional Thai massage in Chiang Mai's Sunday walking street. Authentic Thai massage for health and wellness.">
-    <meta name="keywords" content="thai massage, Chiang Mai, Sunday walking street, massage therapy, wellness, relaxation">
-    <meta name="author" content="Gaya Massage Shop">
-    <title>Gaya Massage Shop - Traditional Thai Massage in Chiang Mai's Sunday Walking Street</title>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gaya Massage Shop - Traditional Thai massage in Chiang Mai's Sunday walking street. Authentic Thai massage for health and wellness."
+    />
+    <meta
+      name="keywords"
+      content="thai massage, Chiang Mai, Sunday walking street, massage therapy, wellness, relaxation"
+    />
+    <meta name="author" content="Gaya Massage Shop" />
+    <title>
+      Gaya Massage Shop - Traditional Thai Massage in Chiang Mai's Sunday
+      Walking Street
+    </title>
+
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gayamassage.shop/">
-    <meta property="og:title" content="Gaya Massage Shop - Traditional Thai Massage in Chiang Mai">
-    <meta property="og:description" content="Experience authentic Thai massage therapy for health and wellness in Chiang Mai's Sunday walking street area.">
-    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gayamassage.shop/" />
+    <meta
+      property="og:title"
+      content="Gaya Massage Shop - Traditional Thai Massage in Chiang Mai"
+    />
+    <meta
+      property="og:description"
+      content="Experience authentic Thai massage therapy for health and wellness in Chiang Mai's Sunday walking street area."
+    />
+
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://gayamassage.shop/">
-    <meta property="twitter:title" content="Gaya Massage Shop - Traditional Thai Massage in Chiang Mai">
-    <meta property="twitter:description" content="Experience authentic Thai massage therapy for health and wellness in Chiang Mai's Sunday walking street area.">
-    
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://gayamassage.shop/" />
+    <meta
+      property="twitter:title"
+      content="Gaya Massage Shop - Traditional Thai Massage in Chiang Mai"
+    />
+    <meta
+      property="twitter:description"
+      content="Experience authentic Thai massage therapy for health and wellness in Chiang Mai's Sunday walking street area."
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-page="home">
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h1>Gaya Massage</h1>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link active">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="services.html" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="gallery.html" class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#book" class="nav-link book-now-btn">Book Now</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h1 id="brand-title"></h1>
         </div>
+        <ul class="nav-menu" id="nav-menu"></ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </nav>
 
     <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1 class="hero-title">Welcome to Gaya Massage</h1>
-                <p class="hero-subtitle">Traditional Thai Massage in Chiang Mai's Sunday Walking Street</p>
-                <p class="hero-description">Experience authentic Thai massage therapy for health and wellness in the heart of Chiang Mai's vibrant Sunday market area.</p>
-                <div class="hero-buttons">
-                    <a href="services.html" class="btn btn-primary">Our Services</a>
-                    <a href="#book" class="btn btn-secondary">Book Now</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="hero-placeholder">🌿 Spa Environment</div>
-            </div>
-        </section>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title" id="home-hero-title"></h1>
+          <p class="hero-subtitle" id="home-hero-subtitle"></p>
+          <p class="hero-description" id="home-hero-description"></p>
+          <div class="hero-buttons" id="home-hero-buttons"></div>
+        </div>
+      </section>
 
-        <!-- About Section -->
-        <section class="about">
-            <div class="container">
-                <h2 class="section-title">About Gaya Massage</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>At Gaya Massage, we specialize in massage for health and wellness using traditional Thai massage techniques. Located at the heart of Chiang Mai's Sunday walking street, our spa offers authentic Thai massage therapy in a peaceful environment.</p>
-                        <p>Our expert therapists provide traditional Thai massage that combines acupressure, stretching, and therapeutic techniques to promote health, reduce stress, and improve overall well-being.</p>
-                    </div>
-                    <div class="about-features">
-                        <div class="feature">
-                            <div class="feature-icon">🙏</div>
-                            <h3>Expert Therapists</h3>
-                            <p>Certified professionals with years of experience</p>
-                        </div>
-                        <div class="feature">
-                            <div class="feature-icon">🧘‍♀️</div>
-                            <h3>Peaceful Environment</h3>
-                            <p>Tranquil space designed for complete relaxation</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- About Section -->
+      <section class="about">
+        <div class="container">
+          <h2 class="section-title" id="home-about-title"></h2>
+          <div class="about-content">
+            <div class="about-text" id="home-about-text"></div>
+            <div class="about-features" id="home-about-features"></div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Opening Hours Section -->
-        <section class="hours">
-            <div class="container">
-                <h2 class="section-title">Opening Hours</h2>
-                <div class="hours-content">
-                    <div class="hours-table">
-                        <div class="hours-row">
-                            <span class="day">Monday - Saturday</span>
-                            <span class="time">9:00 AM - 10:00 PM</span>
-                        </div>
-                        <div class="hours-row">
-                            <span class="day">Sunday</span>
-                            <span class="time">9:00 AM - 11:00 PM</span>
-                        </div>
-                    </div>
-                    <div class="hours-note">
-                        <p>📞 We recommend booking in advance to secure your preferred time slot.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <!-- Opening Hours Section -->
+      <section class="hours">
+        <div class="container">
+          <h2 class="section-title" id="home-hours-title"></h2>
+          <div class="hours-content">
+            <div class="hours-table" id="home-hours-table"></div>
+            <div class="hours-note" id="home-hours-note"></div>
+          </div>
+        </div>
+      </section>
 
-        <!-- CTA Section -->
-        <section id="book" class="cta">
-            <div class="container">
-                <h2>Ready to Experience Tranquility?</h2>
-                <p>Book your massage session today and embark on a journey to wellness and relaxation.</p>
-                <div class="cta-buttons">
-                    <a href="tel:+66960571704" class="btn btn-primary">Call Now</a>
-                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+      <!-- Services Hero -->
+      <section id="services" class="services-hero">
+        <div class="container">
+          <h1 class="page-title" id="services-hero-title"></h1>
+          <p class="page-subtitle" id="services-hero-subtitle"></p>
+        </div>
+      </section>
+
+      <!-- Services Grid -->
+      <section class="services-grid">
+        <div class="container">
+          <div class="services-container" id="services-container">
+            <!-- Services will be generated dynamically by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Services CTA -->
+      <section id="services-cta" class="cta">
+        <div class="container">
+          <h2 id="services-cta-title"></h2>
+          <p id="services-cta-description"></p>
+          <div class="cta-buttons" id="services-cta-buttons"></div>
+        </div>
+      </section>
+
+      <!-- Contact Hero -->
+      <section id="contact" class="contact-hero">
+        <div class="container">
+          <h1 class="page-title" id="contact-hero-title"></h1>
+          <p class="page-subtitle" id="contact-hero-subtitle"></p>
+        </div>
+      </section>
+
+      <!-- Contact Content -->
+      <section class="contact-content">
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-info">
+              <h2 id="contact-info-heading"></h2>
+
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                  <h3 id="contact-location-title"></h3>
+                  <div id="contact-address"></div>
                 </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                  <h3 id="contact-phone-title"></h3>
+                  <p id="contact-phone-note"></p>
+                  <a id="contact-phone-link" href="tel:+66960571704"></a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🕒</div>
+                <div class="contact-details">
+                  <h3 id="contact-hours-title"></h3>
+                  <p id="contact-hours-text"></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🌐</div>
+                <div class="contact-details">
+                  <h3 id="contact-social-title"></h3>
+                  <p id="contact-social-note"></p>
+                  <div
+                    class="social-links"
+                    id="contact-social-links"
+                    style="margin-top: 1rem"
+                  ></div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+
+          <!-- Map Section -->
+          <div class="map-container">
+            <div class="map-placeholder">
+              <div id="map-label"></div>
+              <small
+                id="map-note"
+                style="font-size: 1rem; opacity: 0.8"
+              ></small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Booking Information -->
+      <section class="booking-info">
+        <div class="container">
+          <h2 class="section-title" id="booking-info-title"></h2>
+          <div class="booking-grid" id="booking-grid"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Gaya Massage</h3>
-                    <p>Your sanctuary for traditional Thai massage and wellness in Chiang Mai's Sunday walking street.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link instagram" aria-label="Instagram">📷</a>
-                        <a href="#" class="social-link facebook" aria-label="Facebook">📘</a>
-                        <a href="#" class="social-link tiktok" aria-label="TikTok">🎵</a>
-                        <a href="#" class="social-link line" aria-label="Line">💬</a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h3>Contact Info</h3>
-                    <p>📍 210 Prapokklao Road, Tambon Si Phum<br>Mueang Chiang Mai District, Chiang Mai 50200</p>
-                    <p>📞 +66960571704</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#book">Book Now</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Gaya Massage Shop. All rights reserved.</p>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 id="footer-brand-name"></h3>
+            <p id="footer-description"></p>
+            <div class="social-links" id="footer-social"></div>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p id="footer-address"></p>
+            <p id="footer-phone"></p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul id="footer-links"></ul>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p id="footer-copy"></p>
+        </div>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

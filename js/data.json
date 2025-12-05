@@ -1,0 +1,165 @@
+{
+  "brand": {
+    "name": "Gaya Massage",
+    "tagline": "Traditional Thai Massage in Chiang Mai's Sunday Walking Street",
+    "description": "Your sanctuary for traditional Thai massage and wellness in Chiang Mai's Sunday walking street.",
+    "address": [
+      "210 Prapokklao Road, Tambon Si Phum",
+      "Mueang Chiang Mai District, Chiang Mai 50200"
+    ],
+    "phone": "+66960571704",
+    "mapNote": "210 Prapokklao Road, Tambon Si Phum, Mueang Chiang Mai District",
+    "social": [
+      { "platform": "Instagram", "icon": "📷", "url": "#" },
+      { "platform": "Facebook", "icon": "📘", "url": "#" },
+      { "platform": "TikTok", "icon": "🎵", "url": "#" },
+      { "platform": "Line", "icon": "💬", "url": "#" }
+    ],
+    "year": "2026"
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home", "page": "home" },
+    { "label": "Services", "href": "#services", "page": "services" },
+    { "label": "Contact", "href": "#contact", "page": "contact" },
+    { "label": "Book Now", "href": "#services-cta", "variant": "button" }
+  ],
+  "homePage": {
+    "hero": {
+      "title": "Welcome to Gaya Massage",
+      "subtitle": "Traditional Thai Massage in Chiang Mai's Sunday Walking Street",
+      "description": "Experience authentic Thai massage therapy for health and wellness in the heart of Chiang Mai's vibrant Sunday market area.",
+      "buttons": [
+        { "label": "Our Services", "href": "#services", "variant": "primary" },
+        { "label": "Book Now", "href": "#services-cta", "variant": "secondary" }
+      ]
+    },
+    "about": {
+      "title": "About Gaya Massage",
+      "paragraphs": [
+        "At Gaya Massage, we specialize in massage for health and wellness using traditional Thai massage techniques. Located at the heart of Chiang Mai's Sunday walking street, our spa offers authentic Thai massage therapy in a peaceful environment.",
+        "Our expert therapists provide traditional Thai massage that combines acupressure, stretching, and therapeutic techniques to promote health, reduce stress, and improve overall well-being."
+      ],
+      "features": [
+        {
+          "icon": "🙏",
+          "title": "Expert Therapists",
+          "description": "Certified professionals with years of experience"
+        },
+        {
+          "icon": "🧘‍♀️",
+          "title": "Peaceful Environment",
+          "description": "Tranquil space designed for complete relaxation"
+        }
+      ]
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "rows": [{ "day": "Monday - Sunday", "time": "9:00 AM - 10:30 PM" }],
+      "note": "📞 We recommend booking in advance to secure your preferred time slot."
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Discover our range of therapeutic massage treatments designed to restore balance and promote wellness"
+    },
+    "services": [
+      {
+        "name": "Thai Massage",
+        "emoji": "🙏",
+        "description": "Traditional Thai massage combining acupressure, stretching, and therapeutic techniques to promote health and wellness.",
+        "duration": "1 hour",
+        "price": "฿250",
+        "features": [
+          "Traditional techniques",
+          "Health benefits",
+          "Stress relief"
+        ]
+      },
+      {
+        "name": "Oil Massage",
+        "emoji": "🛁",
+        "description": "Relaxing oil massage using aromatic oils to soothe muscles and enhance relaxation.",
+        "duration": "1 hour",
+        "price": "฿400",
+        "features": ["Aromatherapy", "Muscle relaxation", "Deep soothing"]
+      },
+      {
+        "name": "Foot Massage",
+        "emoji": "🦶",
+        "description": "Relaxing foot massage focusing on pressure points to improve circulation and reduce fatigue.",
+        "duration": "1 hour",
+        "price": "฿250",
+        "features": ["Improved circulation", "Fatigue relief", "Relaxation"]
+      },
+      {
+        "name": "Neck, Shoulder & Back",
+        "emoji": "💆",
+        "description": "Targeted massage for neck, shoulders, and back to relieve tension and improve posture.",
+        "duration": "1 hour",
+        "price": "฿250",
+        "features": ["Tension relief", "Posture support", "Pain reduction"]
+      }
+    ],
+    "cta": {
+      "title": "Ready to Experience Ultimate Relaxation?",
+      "description": "Book your therapeutic massage session today and discover the healing power of touch.",
+      "buttons": [
+        {
+          "label": "Call to Book",
+          "href": "tel:+66960571704",
+          "variant": "primary"
+        },
+        { "label": "Contact Us", "href": "#contact", "variant": "secondary" }
+      ]
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch to book your massage session or learn more about our services"
+    },
+    "infoHeading": "Get In Touch",
+    "contactDetails": {
+      "locationTitle": "Our Location",
+      "addressLines": [
+        "210 Prapokklao Road, Tambon Si Phum",
+        "Mueang Chiang Mai District, Chiang Mai",
+        "Thailand 50200"
+      ],
+      "phoneTitle": "Phone Number",
+      "phoneNote": "Available during business hours",
+      "hoursTitle": "Opening Hours",
+      "hoursText": "Monday - Sunday: 9:00 AM - 10:30 PM",
+      "socialTitle": "Social Media",
+      "socialNote": "Follow us for updates and wellness tips"
+    },
+    "map": {
+      "label": "🗺️ Interactive Map",
+      "note": "210 Prapokklao Road, Tambon Si Phum, Mueang Chiang Mai District"
+    },
+    "bookingTitle": "Booking Information",
+    "bookingInfo": [
+      {
+        "icon": "📅",
+        "title": "Advance Booking",
+        "description": "We recommend booking at least 2 hours in advance to secure your preferred time slot, especially during weekends and holidays."
+      },
+      {
+        "icon": "💳",
+        "title": "Payment Methods",
+        "description": "We accept cash and Thai PromptPay QR payments. Payment is due at the time of service or upon booking for packages."
+      },
+      {
+        "icon": "🚫",
+        "title": "Cancellation Policy",
+        "description": "Free cancellation up to 1 hour before your appointment."
+      },
+      {
+        "icon": "👕",
+        "title": "What to Bring",
+        "description": "We provide all necessary linens and towels. Wear comfortable clothing and arrive 10 minutes early to relax."
+      }
+    ]
+  }
+}
