@@ -1156,15 +1156,17 @@ section {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 4rem;
     align-items: start;
+    justify-items: center;
 }
 
 .contact-info {
     background-color: var(--light-green);
     padding: 2rem;
     border-radius: 15px;
+    max-width: 600px;
 }
 
 .contact-item {

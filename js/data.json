@@ -21,7 +21,7 @@
     { "label": "Home", "href": "#home", "page": "home" },
     { "label": "Services", "href": "#services", "page": "services" },
     { "label": "Contact", "href": "#contact", "page": "contact" },
-    { "label": "Book Now", "href": "#services-cta", "variant": "button" }
+    { "label": "Contact Now", "href": "#services-cta", "variant": "button" }
   ],
   "homePage": {
     "hero": {
@@ -30,7 +30,11 @@
       "description": "Experience authentic Thai massage therapy for health and wellness in the heart of Chiang Mai's vibrant Sunday market area.",
       "buttons": [
         { "label": "Our Services", "href": "#services", "variant": "primary" },
-        { "label": "Book Now", "href": "#services-cta", "variant": "secondary" }
+        {
+          "label": "Contact Now",
+          "href": "#services-cta",
+          "variant": "secondary"
+        }
       ]
     },
     "about": {
@@ -55,7 +59,7 @@
     "hours": {
       "title": "Opening Hours",
       "rows": [{ "day": "Monday - Sunday", "time": "9:00 AM - 10:30 PM" }],
-      "note": "📞 We recommend booking in advance to secure your preferred time slot."
+      "note": "📞 We recommend visiting our shop to secure your preferred time slot."
     }
   },
   "servicesPage": {
@@ -103,10 +107,10 @@
     ],
     "cta": {
       "title": "Ready to Experience Ultimate Relaxation?",
-      "description": "Book your therapeutic massage session today and discover the healing power of touch.",
+      "description": "Contact us today and discover the healing power of touch.",
       "buttons": [
         {
-          "label": "Call to Book",
+          "label": "Call for more info",
           "href": "tel:+66960571704",
           "variant": "primary"
         },
@@ -117,7 +121,7 @@
   "contactPage": {
     "hero": {
       "title": "Contact Us",
-      "subtitle": "Get in touch to book your massage session or learn more about our services"
+      "subtitle": "Get in touch to learn more about our services"
     },
     "infoHeading": "Get In Touch",
     "contactDetails": {
@@ -139,13 +143,8 @@
       "embedSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24309.07394988624!2d98.97330491889306!3d18.779626067775432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3b39d97b6833%3A0x153f97668f94f6a4!2sGaya%20Massage!5e0!3m2!1sen!2sth!4v1764950517587!5m2!1sen!2sth",
       "note": "210 Prapokklao Road, Tambon Si Phum, Mueang Chiang Mai District"
     },
-    "bookingTitle": "Booking Information",
+    "bookingTitle": "Contact Information",
     "bookingInfo": [
-      {
-        "icon": "📅",
-        "title": "Advance Booking",
-        "description": "We recommend booking at least 2 hours in advance to secure your preferred time slot, especially during weekends and holidays."
-      },
       {
         "icon": "💳",
         "title": "Payment Methods",
@@ -159,7 +158,7 @@
       {
         "icon": "👕",
         "title": "What to Bring",
-        "description": "We provide all necessary linens and towels. Wear comfortable clothing and arrive 10 minutes early to relax."
+        "description": "Nothing. We provide all necessary linens and towels. Wear comfortable clothing and arrive 5-10 minutes early to relax."
       }
     ]
   }
