@@ -170,7 +170,7 @@ function populateServicesPage(data) {
         createFragment(`
                 <div class="service-card">
                     <div class="service-image">
-                        <div class="service-placeholder">${service.emoji} ${service.name}</div>
+                        <div class="service-placeholder"><span>${service.emoji}</span>${service.name}</div>
                     </div>
                     <div class="service-content">
                         <h3>${service.name}</h3>
@@ -338,22 +338,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   });
 
-  // Navbar scroll effect
-  let lastScrollTop = 0;
+  // Navbar scroll effect (JS Fallback for unsupported browsers)
   const navbar = document.querySelector(".navbar");
-
-  window.addEventListener("scroll", function () {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    // Add/remove scrolled class for styling
-    if (scrollTop > 100) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-
-    lastScrollTop = scrollTop;
-  });
+  if (!CSS.supports("(animation-timeline: scroll()) and (animation-range: 0% 100%)")) {
+    window.addEventListener("scroll", function () {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > 80) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  }
 
   // Active navigation link highlighting
   const sections = document.querySelectorAll("section[id]");
@@ -376,31 +372,30 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   window.addEventListener("scroll", updateActiveNavLink);
 
-  // Intersection Observer for animations
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: "0px 0px -50px 0px",
-  };
+  // Scroll Reveal Animations Fallback (JS Fallback for unsupported browsers)
+  if (!CSS.supports("(animation-timeline: view()) and (animation-range: entry)")) {
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px",
+    };
 
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = "1";
-        entry.target.style.transform = "translateY(0)";
-      }
+    const revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          revealObserver.unobserve(entry.target); // Trigger only once
+        }
+      });
+    }, observerOptions);
+
+    const animatedElements = document.querySelectorAll(
+      ".feature, .service-card, .booking-card, .hours-table, .contact-info, .map-container"
+    );
+    animatedElements.forEach((el) => {
+      el.classList.add("reveal-fallback");
+      revealObserver.observe(el);
     });
-  }, observerOptions);
-
-  // Observe elements for animation
-  const animatedElements = document.querySelectorAll(
-    ".feature, .hours-table, .about-text"
-  );
-  animatedElements.forEach((el) => {
-    el.style.opacity = "0";
-    el.style.transform = "translateY(30px)";
-    el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-    observer.observe(el);
-  });
+  }
 
   // Email validation helper
   function isValidEmail(email) {
