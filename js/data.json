@@ -7,7 +7,7 @@
       "210 Prapokklao Road, Tambon Si Phum",
       "Mueang Chiang Mai District, Chiang Mai 50200"
     ],
-    "phone": "+66960571704",
+    "phone": "+66616349051",
     "mapNote": "210 Prapokklao Road, Tambon Si Phum, Mueang Chiang Mai District",
     "social": [
       { "platform": "Instagram", "icon": "📷", "url": "#" },
@@ -111,7 +111,7 @@
       "buttons": [
         {
           "label": "Call for more info",
-          "href": "tel:+66960571704",
+          "href": "tel:+66616349051",
           "variant": "primary"
         },
         { "label": "Contact Us", "href": "#contact", "variant": "secondary" }
